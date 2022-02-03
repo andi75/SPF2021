@@ -1,5 +1,5 @@
 public class DeclarationAndDefinition {
-    public static void main(String arv[])
+    public static void main(String[] argv)
     {
         // this is a declaration that the variable name 'answer' is of type 'double';
         double answer;

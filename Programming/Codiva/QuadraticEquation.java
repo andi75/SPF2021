@@ -1,7 +1,9 @@
 import java.util.Scanner; 
 
 class QuadraticEquation {    
-  public static void main(String[] args) {    
+  public static void main(String[] args) {
+    System.out.println("To solve the quadratic equation ax^2 + bx + c = 0, please enter a, b and c");
+    
     Scanner s;
     s = new Scanner(System.in);
     
@@ -9,7 +11,7 @@ class QuadraticEquation {
     double a = s.nextDouble();
     
     System.out.println("b = ?");
-        double b = s.nextDouble();
+    double b = s.nextDouble();
     
     System.out.println("c = ?");
     double c = s.nextDouble();

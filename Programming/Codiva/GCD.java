@@ -14,16 +14,17 @@ class GCD {
         a = b;
         b = tmp;
     }
+    
     // Compute the gcd using Euler's algorithm
     while(b != 0)
     {
-      int rest = a % b;
-      // b ist das neue a
+      int remainder = a % b;
+      // b is the new a
       a = b;
-      // rest ist das neue b
-      b = rest;
+      // remainder is the new b
+      b = remainder;
     }
-    // a ist der ggT
+    // a is the gcd now
     return a;
   }
 }
