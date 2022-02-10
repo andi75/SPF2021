@@ -10,8 +10,8 @@ void draw()
   Complex z2 = new Complex();
   z2.a = -1;
   z2.b = 4;
-  println("z2 = " + z2.a + " + " + z2.b + "i");
+  println("z2 = " + z2); // uses the toString() method in Complex
   Complex z3 = add(z1, z2);
-  println("z3 = " + z3.a + " + " + z3.b + "i");
+  println("z3 = " + z3);
   
 }
