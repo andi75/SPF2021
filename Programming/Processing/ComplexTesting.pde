@@ -6,5 +6,12 @@ void setup() {
 void draw()
 {
   Complex z1 = new Complex(2, 3);
-  print("z1 = " + z1.a + " + " + z1.b + "i");
+  println("z1 = " + z1.a + " + " + z1.b + "i");
+  Complex z2 = new Complex();
+  z2.a = -1;
+  z2.b = 4;
+  println("z2 = " + z2.a + " + " + z2.b + "i");
+  Complex z3 = add(z1, z2);
+  println("z3 = " + z3.a + " + " + z3.b + "i");
+  
 }
